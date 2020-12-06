@@ -1,5 +1,6 @@
 # Instance-segmentation-using-Detecron2
 The purpose of this project is to implement a model for the task of instance segmentation using Tiny PASCAL VOC dataset. Detectron2 platform is used for this task. In particular, the model used is Mask R-CNN with ResNet50 as backbone. ImageNet pre-trained weights are used as a starting point for training.
+The whole project is implemented using Google Colab platform.
 ## Dataset
 We use Tiny PASCAL VOC dataset in this project, including 1349 training images and 100 test images.
 
@@ -18,6 +19,11 @@ We use Tiny PASCAL VOC dataset in this project, including 1349 training images a
 
 -------------------
 
+To create your own dataset to fit Detectron2, you have to register your dataset (default is coco format) first:
+```
+register_coco_instances("train_pascal", {}, "/content/drive/My Drive/pascal_train.json", "/content/drive/My Drive/train_images")
+register_coco_instances("test", {}, "/content/drive/My Drive/test.json", "/content/drive/My Drive/test_images")
+```
 
 ## Environment
 
@@ -45,7 +51,6 @@ trainer.train()
 </p>
 
 -------------------
-
 
 ## Credits
 1) https://colab.research.google.com/drive/16jcaJoc6bCFAQ96jDe2HwtXj7BMD_-m5#scrollTo=7unkuuiqLdqd
