@@ -12,5 +12,11 @@ We use Tiny PASCAL VOC dataset in this project
 !pip install detectron2==0.1.3 -f https://dl.fbaipublicfiles.com/detectron2/wheels/cu101/index.html
   ```
 ## Train
+## Results
+<p align="center">
+  <img src="test2.png">
+  <img src="test4.png">
+  <img src="test5.png">
+</p>
 ## Credits
 1) https://colab.research.google.com/drive/16jcaJoc6bCFAQ96jDe2HwtXj7BMD_-m5#scrollTo=7unkuuiqLdqd
