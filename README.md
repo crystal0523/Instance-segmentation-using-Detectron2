@@ -5,15 +5,15 @@ We use Tiny PASCAL VOC dataset in this project, including 1349 training images a
 
 ------------------
 <p align="center">
-  <img src="2007_000033.png">
+  <img src="2007_000033.jpg">
 </p>
 
 <p align="center">
-  <img src="2007_000129.png">
+  <img src="2007_000129.jpg">
 </p>
 
 <p align="center">
-  <img src="2007_000175.png">
+  <img src="2007_000175.jpg">
 </p>
 
 -------------------
