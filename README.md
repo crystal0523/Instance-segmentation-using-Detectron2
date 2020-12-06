@@ -36,7 +36,7 @@ register_coco_instances("test", {}, "/content/drive/My Drive/test.json", "/conte
 ```
 ## Train
 
-Using the following commands to start the training process. To see more detailed steps, refer to  `<`instance_segmentation.ipynb `>` .
+Using the following commands to start the training process. To see more detailed steps, refer to  [instance_segmentation.ipynb] .
 ```
 trainer = DefaultTrainer(cfg)
 trainer.resume_or_load(resume=False)
