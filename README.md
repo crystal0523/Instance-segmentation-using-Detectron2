@@ -1,7 +1,23 @@
 # Instance-segmentation-using-Detecron2
 The purpose of this project is to implement a model for the task of instance segmentation using Tiny PASCAL VOC dataset. Detectron2 platform is used for this task. In particular, the model used is Mask R-CNN with ResNet50 as backbone. ImageNet pre-trained weights are used as a starting point for training
 ## Dataset
-We use Tiny PASCAL VOC dataset in this project
+We use Tiny PASCAL VOC dataset in this project, including 1349 training images and 100 test images
+
+------------------
+<p align="center">
+  <img src="2007_000033.png">
+</p>
+
+<p align="center">
+  <img src="2007_000129.png">
+</p>
+
+<p align="center">
+  <img src="2007_000175.png">
+</p>
+
+-------------------
+
 
 ## Environment
 
