@@ -28,6 +28,14 @@ We use Tiny PASCAL VOC dataset in this project, including 1349 training images a
 !pip install detectron2==0.1.3 -f https://dl.fbaipublicfiles.com/detectron2/wheels/cu101/index.html
   ```
 ## Train
+
+Using the following commands to start the training process. To see more detailed steps, refer to instance_segmentation.ipynb.
+```
+trainer = DefaultTrainer(cfg)
+trainer.resume_or_load(resume=False)
+trainer.train() 
+```
+
 ## Results
 ------------------
 <p align="center">
