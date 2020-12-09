@@ -35,7 +35,10 @@ register_coco_instances("train_pascal", {}, "/content/drive/My Drive/pascal_trai
 register_coco_instances("test", {}, "/content/drive/My Drive/test.json", "/content/drive/My Drive/test_images")
 ```
 ## Train
-
+Pretrained weight is available at
+```
+https://drive.google.com/file/d/1-3s70Aghw3WLfP2X-ridD9VM3n0rWmOU/view?usp=sharing
+```
 Using the following commands to start the training process. To see more detailed steps, refer to  ```instance_segmentation.ipynb ``` .
 ```
 trainer = DefaultTrainer(cfg)
